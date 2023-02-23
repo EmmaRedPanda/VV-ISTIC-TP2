@@ -4,3 +4,10 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 ## Answer
 
+On a : 
+NP = nombre maximum de connexions possibles = N * (N − 1)/2 où N est le nombre de méthodes,
+NDC = nombre de connexions directes (nombre d'arêtes dans le graphe de connexion),
+NID = nombre de connexions indirectes.
+
+Sachant que TCC = NDC/NP et LCC = (NDC + NIC)/NP, pour avoir TCC = LCC on veut NIC = 0.
+
